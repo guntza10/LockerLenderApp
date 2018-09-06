@@ -1,0 +1,7 @@
+{
+  "name": "LokerLenderApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
