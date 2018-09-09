@@ -1,17 +1,54 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Locker Lender</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <ion-grid>
+      <ion-row>
+        <ion-card class="backGroundCard">
+          <ion-card-header>
+            <!-- header -->
+            Locker L1
+          </ion-card-header>
+          <ion-row>
+            <ion-col col-4>
+              <img width="80" height="80"src="../../assets/imgs/pencil.png" />
+              <!-- image -->
+            </ion-col>
+            <ion-col col-8>
+               <!-- description -->
+            <ion-card-content>
+              ดินสอ <p></p>
+              test
+            </ion-card-content>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+        <ion-row>
+          <ion-card class="backGroundCard">
+            <ion-card-header>
+              <!-- header -->
+              Locker L3
+            </ion-card-header>
+            <ion-row>
+              <ion-col col-4>
+                <img width="80" height="80" src="../../assets/imgs/game.png" />
+                <!-- image -->
+              </ion-col>
+              <ion-col col-8>
+                 <!-- description -->
+              <ion-card-content>
+                บอร์ดเกมส์ <p></p>
+                test
+              </ion-card-content>
+              </ion-col>
+            </ion-row>
+          </ion-card>
+        </ion-row>
+      </ion-grid>
 </ion-content>

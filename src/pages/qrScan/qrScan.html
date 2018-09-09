@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      QR Scan
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-grid>
+        <ion-row>
+          <button ion-button (click)="scan()">
+            Button
+          </button>
+        </ion-row>
+      </ion-grid>
+</ion-content>
+  <!-- <div>
+
+    <ionic-input style="background-color: gray" type = "text" [(ngModule)}] = "encodeText"></ionic-input>
+    <button ion-button block(click) = "encode()">Encode</button>
+
+  </div>
+  <div>
+
+    <button ion-button block(click) = "scan()">Encode</button>
+    
+    <div *ngIf = "scannerData.text">
+      <label>Your barcode is</label>
+      <br>
+      <span>{{scannerData.text}}</span>
+     </div>
+  </div>-->
+
+  <!-- <ion-item>///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    <ion-input type = "text" placeholder="My QR data"></ion-input>
+  </ion-item>
+
+  <button ion-button full (click) = "createCode()"><ion-icon name = "barcode"></ion-icon> Create Code</button>
+  <button ion-button full (click) = "scanCode()"><ion-icon name = "qr-scaner"></ion-icon> Scan Code</button>
+  
+  <ion-card *ngIf = "createCode">
+    <ngx-qrcode [qrc-value] = "createCode"></ngx-qrcode>
+    <ion-card-content>
+      <p>Value: {{createCode}}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngif = "scanedCode">
+      <ion-card-content>
+        Result from Scan: {{ scanedCode}}
+      </ion-card-content>
+  </ion-card> -->
